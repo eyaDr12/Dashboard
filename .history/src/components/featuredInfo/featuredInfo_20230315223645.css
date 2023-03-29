@@ -1,0 +1,104 @@
+.featured {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 180px;
+
+}
+
+.featuredItem1 {
+  background-color:   #ddffcc;
+  margin: 0px 20px;
+  padding: 30px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+width: fit-content;
+
+}
+.featuredItem2 {
+    background-color:   #ffffcc;
+    padding: 30px;
+    margin: 0px 20px;
+    width:200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-left: -20;
+  }
+  .featuredItem3 {
+    background-color:   #cceeff;
+    padding: 30px;
+    margin: 0px 20px;
+    width:200px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-left: -30rem;
+  }
+
+.featuredTitle{
+    font-size: 20px;
+    color:#000000;
+    line-height: 83.2px;
+    letter-spacing: 0.04em;
+  
+}
+
+.featuredMoneyContainer{
+    margin-top: -20px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.featuredMoney{
+
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+
+
+}
+
+.featuredMoneyRate{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 20px;
+    width: 60px;
+    padding-left: 5px;
+}
+
+.featuredIcon{
+    font-size: 14px;
+    margin-left: 5px;
+    color: green;
+}
+
+.featuredIcon.negative{
+    color: red;
+}
+
+.featuredSub{
+    font-size: 16px;
+    color: gray;
+    font-family: "Cormorant Upright", serif;
+
+}
+.icones{
+font-size: 50px;
+align-items: center;
+display: flex;
+padding-left: 10px;
+background-color:  white;
+width: 40px;
+height: 50px;
+border-radius: 30%;
+margin-top: -10px;
+}

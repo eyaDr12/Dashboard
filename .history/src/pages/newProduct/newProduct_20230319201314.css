@@ -1,0 +1,84 @@
+.newProduct {
+  margin-top: 20px;
+  flex: 4;
+  margin-left: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+  height: 650px;
+  width: 75rem;
+  padding: 2rem;
+  margin-top: -40px;
+
+}
+
+.addProductForm {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+.addProductForm{
+  margin-left: 50px;
+
+}
+.addProductItem {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.addProductItem > label {
+  color: gray;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.newProduct_img{
+  border: 2px solid rgb(200, 200, 200);
+  width: 300px;
+  height: 200px;
+  margin-left: 380px;
+
+}
+.form-control3 {
+  display: block;
+  width: 500px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000000;
+ border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.form-control3:focus {
+  border-color:  #dcca87;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem #dcca87;
+
+}
+.addProductItem  select {
+  padding: 10px;
+  width: 520px;
+}
+
+.addProductButton {
+  width: 80px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #f1d579;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  font-size: 16px;
+  padding: 0.5rem 1.0rem;
+  border-radius: 1px;
+  outline: none;
+
+
+}

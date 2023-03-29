@@ -1,0 +1,49 @@
+.home{
+    flex: 4;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.homeWidgets{
+    
+    margin-bottom: 45px;
+    display: flex;
+    margin: 20px;
+}
+
+
+
+h1{
+   color:  #dcca87;
+  font-family: "Cormorant Upright", serif;
+  font-size: 50px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color:  #dcca87;
+  font-family: "Cormorant Upright", serif;
+  font-size: 50px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  
+
+}
+
+.grid1{
+ 
+    width: 65%;
+    margin-left: 7px;
+
+}
+.grid2{
+    width: 40%;
+    margin-left: 7px;
+   
+
+}
+.homeWidgets2{
+
+    width: 57%;
+    margin-left: 10px;
+}

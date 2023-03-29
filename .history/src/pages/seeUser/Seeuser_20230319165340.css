@@ -1,0 +1,32 @@
+.userShow{
+    height: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 4rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+   width: 300px;
+   margin-top: 50px;
+   margin-left: 450px;
+}
+.userShow img{
+
+    width: 150px;
+    height: 150px;
+}
+.userShowInfo{
+
+    font-size: 20px;
+}
+.userShowTopTitle{
+    font-size: 20px;
+}
+.userShowTitle{
+    color:#f1d579;
+    font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  line-height: 29.9px;
+  font-size: 28px;
+  font-family:"Cormorant Upright", serif;
+}

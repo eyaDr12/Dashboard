@@ -1,0 +1,89 @@
+.Signup-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background-image: url("https://images.unsplash.com/photo-1635283860905-b0a0012ddf3c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+  }
+  
+  .form-group input{
+    width: 500px;
+  }
+  .signup-form {
+    margin-bottom: 80px;
+    height: 500px;
+    background-color: #f3f2f2;
+    border-radius: 3px;
+    padding: 4rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+   width: 500px;
+   margin-right: 1rem
+  }
+
+  .h3_signup {
+    margin-top: 0;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    
+   
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .form-control {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #000000;
+   border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out,
+      box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color:  var(--color-golden);
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem var(--color-golden);
+  
+  }
+  
+  .sign_btn{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    line-height: 28px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    font-weight: 700;
+    font-family: "Cormorant Upright", serif;
+    background-color: #f1d579;
+    color: black;
+    width: 370px;
+    letter-spacing: 0.04em;
+    transition: color 0.15s ease-in-out,
+      background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+      box-shadow 0.15s ease-in-out;
+  }
+
+

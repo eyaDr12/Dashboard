@@ -1,0 +1,190 @@
+.kanban {
+    display: flex;
+    flex-direction: column;
+    height:850px;
+    width: 1200px;
+    margin-left: 20px;
+
+  }
+  
+  
+  .kanban__content {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    overflow-x: auto;
+    margin-right: -45px;
+    margin-left: 10px;
+  }
+  
+.kanban__list {
+flex: 1;
+min-width: 300px;
+padding: 10px;
+background:linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(250, 250, 249) 50%);
+border-radius: 5px;
+margin-right: 20px;
+}
+
+.kanban__list-title {
+margin: 0;
+font-size: 18px;
+font-weight: 600;
+margin-bottom: 10px;
+}
+
+.kanban__list-items {
+padding: 0;
+margin: 0;
+list-style-type: none;
+}
+
+.kanban__list-item {
+margin-bottom: 10px;
+padding: 10px;
+background-color: #fff;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+display: flex;
+justify-content: space-between;
+align-items: center;
+height:70px;
+}
+
+.kanban__list-item-add {
+margin-bottom: 10px;
+padding: 10px;
+background-color: #f1f1f0;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+display: flex;
+justify-content: space-between;
+align-items: center;
+cursor: pointer;
+}
+
+.kanban__list-item-add span {
+margin-left: 10px;
+}
+
+
+.kanban__list-item-content {
+flex: 1;
+}
+
+.kanban__list-item-content h3 {
+margin: 0;
+font-size: 16px;
+font-weight: 600;
+margin-bottom: 5px;
+color :#d5c67b
+}
+
+.kanban__list-item-content p {
+margin: 0;
+font-size: 14px;
+color: #6c757d;
+margin-bottom: 0;
+}
+
+.kanban__list-item-actions {
+display: flex;
+align-items: center;
+}
+
+.kanban__list-item-action-button {
+border: none;
+background-color: transparent;
+cursor: pointer;
+margin-left: 10px;
+}
+
+.kanban__list-item-action-button i {
+font-size: 16px;
+color: #6c757d;
+}
+
+.kanban__form {
+margin-top: 10px;
+}
+
+.kanban__form-input {
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ced4da;
+margin-bottom: 10px;
+font-size: 14px;
+}
+
+.kanban__form-textarea {
+width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ced4da;
+margin-bottom: -20px;
+font-size: 19px;
+}
+
+.kanban__form-actions {
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.kanban__form-actions button {
+border: none;
+background-color: #007bff;
+color: #fff;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+margin-left: 10px;
+}
+
+.kanban__form-actions button:hover {
+background-color: #0069d9;
+}
+.kanban__list--todo {
+    background-color: #ffe8e8;
+  }
+  
+  .kanban__list--doing {
+    background-color: #fff3e6;
+  }
+  
+  .kanban__list--done {
+    background-color: #eafbea;
+  }
+  
+  .kanban__dragging {
+    opacity: 0.5;
+  }
+  
+  .klm{
+    background-color: #f3e8ab;
+    height: 150px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .klm .klma   {
+  background-color: #ffffff;
+  display: flex;
+  height: 30px;
+  width: 280px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  }
+
+  .klifa{
+    margin: 20px;
+    margin-bottom: 10px;
+    background-color: #f1f1f0;
+    padding: 5px;
+    margin-left: 35px;
+    margin-top: -30px;
+    width: 90px;
+    border: none;
+  }

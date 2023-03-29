@@ -1,0 +1,58 @@
+.Appvt {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+ 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fffffe;  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  input[type="date"] {
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA7klEQVR4nJWQWQ6AMAxE3ze7ZZ2PQLS16V7fLwNF5uIFhFz4aJ4YjA9A0rkiljKx+gGTAIwl+sHu/dwvB/bnchKQIkmGJeWYB8AKvMbUBRgegR/ANjKClJbQEpHSiGUTgNgQLKj3qYAhX8CvNsj0aA1rCGpMC8oEHrxwtwEbd2QzQjnISgPwl0XVlN6jgAAAABJRU5ErkJggg==")
+      no-repeat center center;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  
+  .add-button {
+    margin-bottom: 20px;
+  }
+
+  .h1apro{
+width: 1250px;
+margin-left: -29%;
+
+  }

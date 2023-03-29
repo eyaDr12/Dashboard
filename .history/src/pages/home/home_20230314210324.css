@@ -1,0 +1,42 @@
+.home{
+    flex: 4;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+.homeWidgets{
+    
+    margin-bottom: 45px;
+    display: flex;
+    margin: 20px;
+}
+
+
+
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(222, 194, 110);
+    cursor: pointer;
+    font-family: Cormorant Upright;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.grid1{
+ 
+    width: 65%;
+    margin-left: 7px;
+
+}
+.grid2{
+    width: 40%;
+    margin-left: 7px;
+
+}
+.homeWidgets2{
+
+    
+}

@@ -1,0 +1,106 @@
+.topbar {
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+
+
+
+}
+
+
+.topbarWrapper {
+  height: 100%;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.topLeft{
+  margin-top: 10px;
+ 
+
+}
+.topLeft img{
+  width:200px;
+  margin-left: 1px;
+}
+.logo {
+  margin-left:-40px;
+  font-weight: bold;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  font-family: Cormorant Upright;
+}
+
+.topRight{
+    display: flex;
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 10rem;
+
+    
+}
+
+.topbarIconContainer {
+  position: relative;
+  cursor: pointer;
+  margin-right: 25px;
+  color: #555;
+}
+
+.topIconBadge{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: #d8c25b;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.topAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+/*----------SearchBar----------*/
+
+.container-input {
+  position: relative;
+  margin-left: -50rem;
+}
+
+.input {
+  width: 250px;
+  padding: 10px 0px 10px 40px;
+  border-radius: 9999px;
+  border: solid 1px #adadad;
+  transition: all .2s ease-in-out;
+  outline: none;
+  opacity: 0.8;
+}
+
+.container-input svg {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate(0, -50%);
+}
+
+.input:focus {
+  opacity: 1;
+  width: 250px;
+}

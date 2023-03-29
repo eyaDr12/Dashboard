@@ -1,0 +1,16 @@
+.chart {
+  margin: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 5px;
+}
+
+.chartTitle {
+  margin-bottom: 30px;
+ font-size: 30px;
+ font-family: Cormorant Upright;
+ color: #3c3b3b;
+}

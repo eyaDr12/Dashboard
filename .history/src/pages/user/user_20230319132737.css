@@ -1,0 +1,94 @@
+.checkout-form-container{
+  display: flex;
+  align-items: center;
+  height: 80vh;
+ 
+}
+.edit_title {
+  color:  #dcca87;
+  font-family: "Cormorant Upright", serif;
+  font-size: 50px;
+  line-height: 83.2px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  
+ 
+}
+.h3_form-payment{
+
+  font-family:"Cormorant Upright", serif;;
+  color: black;
+  font-weight: 750;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+  line-height: 29.9px;
+  font-size: 23px;
+  
+}
+.checkout-form{
+  height: 470px;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 4rem;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+ width: 70rem;
+ margin-left: 20px;
+ margin-top: -80px;
+} 
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.form-control {
+  display: block;
+  width: 60%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #000000;
+ border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+  border-color:  #dcca87;
+  outline: 0;
+  box-shadow: 0 0 0 0.1rem #dcca87;
+
+}
+
+
+.btn1_payment-form{
+  background-color:  #f1d579;
+  color: black;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 28px;
+  border-radius: 1px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0.5rem 1.5rem;
+
+
+}
+
+
+.btn1_payment-form:hover {
+  background-color: #eecc5d;
+}
+
+

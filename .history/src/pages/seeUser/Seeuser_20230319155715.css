@@ -1,0 +1,15 @@
+.userShow{
+
+    height: 300px;
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 4rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+   width: 200px;
+   margin-top: 50px;
+}
+.userShow img{
+
+    width: 100px;
+    height: 100px;
+}

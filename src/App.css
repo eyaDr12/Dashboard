@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+.container{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.others{
+  
+    text-decoration: none;
+    color: inherit;
+    background-color: rgb(33, 63, 63);
+}
